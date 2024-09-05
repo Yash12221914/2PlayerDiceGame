@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2E3A59; /* Light Slate Gray */
+  font-family: 'Indie Flower', cursive;
+  color: #FDF3E7; /* Soft Ivory */
+  line-height: 1.6;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Container styles */
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Enhanced Dice Section */
+.dice {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 111, 97, 0.1); /* Soft Coral Background */
+  transition: transform 0.2s ease-in-out;
+  border: 2px solid #FF6F61; /* Soft Coral Border */
+}
+
+.dice:hover {
+  transform: scale(1.05);
+  background: rgba(255, 111, 97, 0.2); /* Softer Coral */
+}
+
+/* Heading Styles */
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #2D2F33; /* Charcoal Shadow */
+  font-size: 8rem;
+  color: #FF6F61; /* Soft Coral */
+  letter-spacing: 2px;
+  transition: color 0.3s ease-in-out;
+}
+
+h1:hover {
+  color: #FDF3E7; /* Soft Ivory */
+  text-shadow: 5px 0 #FF6F61; /* Coral Shadow */
+}
+
+/* Paragraph styles */
+p {
+  font-size: 2rem;
+  color: #FDF3E7; /* Soft Ivory */
+  font-family: 'Indie Flower', cursive;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  transition: color 0.3s ease-in-out;
+}
+
+p:hover {
+  color: #FF6F61; /* Soft Coral */
+}
+
+/* Image Styling */
+img {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 5%;
+  color: #FDF3E7; /* Soft Ivory */
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  padding: 20px;
+  background-color: #2D2F33; /* Charcoal */
+  border-top: 2px solid #FF6F61; /* Soft Coral */
+  font-size: 1.5rem;
+}
